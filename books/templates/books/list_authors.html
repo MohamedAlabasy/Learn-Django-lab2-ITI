@@ -1,0 +1,17 @@
+{% extends 'books/base.html' %}
+{% load static %}
+{% block title %}All Authors{% endblock %}
+
+
+{% block content %}
+<div class="container-fluid mt-3">
+    <div class="row d-flex justify-content-around text-center">
+        <div style="width: 18rem; margin: 0.2rem;">
+            <img src="{% static 'books/media/image1.jpg' %}" style="max-height: 350px;" class="card-img-top">
+            <div class="card-footer fs-6 font-weight-bold border border-bottom-2 text-center">Author.name
+                <span> Mohamed Alabasy </span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

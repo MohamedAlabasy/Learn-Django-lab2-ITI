@@ -1,0 +1,24 @@
+{% extends 'books/base.html' %}
+{% load static %}
+{% block title %}Author{% endblock %}
+
+
+{% block content %}
+<div class="container-fluid mt-3">
+    <div class="row d-flex justify-content-around text-center">
+        <div style="width: 50rem; margin: 0.2rem;">
+            <img src="{% static 'books/media/image1.jpg' %}" style="max-height: 350px;" class="card-img-top">
+            <div class="card-footer fs-6 font-weight-bold border border-bottom-2 text-center">Author.name
+                <span> Mohamed Alabasy </span>
+            </div>
+        </div>
+        <div class="card-footer my-5">
+            <a class="btn btn-dark" href="{% url 'show_book' 100%}">Book Details</a>
+            <a class="btn btn-dark" href="{% url 'show_book' 100%}">Book Details</a>
+            <a class="btn btn-dark" href="{% url 'show_book' 100%}">Book Details</a>
+            <a class="btn btn-dark" href="{% url 'show_book' 100%}">Book Details</a>
+            <a class="btn btn-dark" href="{% url 'show_book' 100%}">Book Details</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
