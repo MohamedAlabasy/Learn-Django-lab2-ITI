@@ -6,5 +6,4 @@
 ### Show Book
 ![image](https://user-images.githubusercontent.com/93389016/164566044-21b5b61c-7b53-4632-be96-25182b7e6bd2.png)
 ### Show Author
-![image](https://user-images.githubusercontent.com/93389016/164566426-89f7821b-5f24-422f-9266-579aefb5be7d.png)
-
+![image](https://user-images.githubusercontent.com/93389016/164885032-588b63ef-4d77-45c0-bcf1-7e0a297fa2d5.png)
